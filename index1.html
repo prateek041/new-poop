@@ -18,37 +18,47 @@
     <!-- ------------------- header ------------------- -->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#mid">VAYAM
-                <img src="assets/vayamlogo.jpg" style="width: 50px; height: 50px; border-radius: 10%;" alt="">
-            </a>
-            <button class=" my-auto navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="mx-auto navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#vayam">VAYAM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a target="blank" class="nav-link" href="events.html">VAYAM 2.0</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#registration">REGISTER</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reward">REWARDS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="blank" href="technovators.html">TECHNOVATORS</a>
-                    </li>
-                </ul>
-                <a class="btn text-light" target="blank" href="team.html" id="button">ABOUT US</a>
-            </div>
-        </nav>
+        <nav
+        class="navbar sticky-top navbar-expand-lg mx-auto p-2"
+        style="background-color: #0000"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5 p-0" href="index.html">U-Hack</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="table.htm">Problem Statement</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#sponsors">Sponsors</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Technovators</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">U-hack 2022</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="assets/guidelines.pdf">Guidelines</a>
+              </li>
+            </ul>
+          </div>
+          <div id="register">
+            <a type="button" href="https://forms.gle/4CsqRMqCHmtcZCp48" class="btn btn-outline-secondary btn-light mx-5"> Register </a>
+          </div>
+        </div>
+      </nav>
         <div class="mid" id="mid">
             <video autoplay muted loop>
                 <source class="embed-responsive" src="assets/main.mp4" type="video/mp4">
@@ -57,17 +67,28 @@
                 data-aos-easing="ease-in-out">
                 <h1>U hack</h1>
                 <h2>We believe in creation and innovation</h2>
-                <p>We all love adventures and, exploring ourselves is the most exciting of them all.
-                    Vayam is back again to provide you all with an opportunity to shine as bright as you can.
+                <p>Build solutions to numerous Real-life problems, under the guidance of seasoned developers and problem solvers, with Technovators.
                 </p>
                 <a href="#vayam">EXPLORE</a>
             </div>
         </div>
     </header>
 
-    <!-- ---------------------- what is vayam ---------------------- -->
+    <!-- bruh -->
 
     <div class="sponsor my-5 jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 class="display-5" data-aos="fade-right" data-aos-offset="200" data-aos-duration="500"
+                data-aos-easing="ease-in-out">Innovation, Incubation and Startup cell of UCER</h3>
+            <img src="assets/logo-ugi.png" alt="">
+        </div>
+    </div>
+
+
+
+    <!-- ---------------------- what is vayam ---------------------- -->
+
+    <div class="sponsor-tech my-5 jumbotron jumbotron-fluid">
         <div class="container">
             <h4 class="display-5" data-aos="fade-right" data-aos-offset="200" data-aos-duration="500"
                 data-aos-easing="ease-in-out">This event is brought to you by</h4>
@@ -84,29 +105,23 @@
         <div class=" team card-group">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Partners and Sponsors for U-Hack</h5>
+                    <h2 class="card-title">Partners and Sponsors for UHack</h2>
                     <p class="card-text">This event is possible due to the collaboration with following organisations</p>
                 </div>
             </div>
             <div class="card text-center">
                 <img src="assets/transparent-background/CSI_Logo.png" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Akshat Mishra</h5>
-                    <p class="card-text">Team Leader
-                    </p>
-                    <p>
-                        8181832525
-                    </p>
+                    <h5 class="card-title">CSI</h5>
+                    <h3 class="card-text">Powered by
+                    </h3>
                 </div>
             </div>
              <div class="card text-center">
                 <img src="assets/transparent-background/Logo_IETE.png" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Dhanu Kr. Kesharwani</h5>
-                    <p class="card-text">Developer and Event Manager</p>
-                    <p>
-                        8009385113
-                    </p>
+                    <h5 class="card-title">IETE</h5>
+                    <h3 class="card-text">powered by</h3>
                 </div>
             </div>
         </div>
@@ -114,30 +129,24 @@
             <div class="card text-center">
                 <img src="assets/transparent-background/Rotary_Club_Logo__1_-1-removebg-preview.png" style="width: 20rem;" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Gaurav Pandey</h5>
-                    <p class="card-text">Database Manager and Coordinator
-                        <br>
-                    </p>
-                    <p>
-                        8004167681
+                    <h5 class="card-title">Rotary</h5>
+                    <h3 class="card-text">Associate partner
+                        <h3>
                     </p>
                 </div>
             </div>
             <div class="card text-center">
                 <img src="assets/transparent-background/Geetanjali_logo__1_-2-removebg-preview.png" style="width: 20rem;" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Aakash</h5>
-                    <p class="card-text">Coordinator</p>
-                    <p>
-                        8840132404
-                    </p>
+                    <h5 class="card-title">Geetanjali</h5>
+                    <h3 class="card-text">Sponsor</h3>
                 </div>
             </div>
             <div class="card text-center">
                 <img src="assets/transparent-background/mba-chai.png" style="width: 20rem;" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Yogita Kumari</h5>
-                    <p class="card-text">Coordinator</p>
+                    <h5 class="card-title">MBA chai wala - Civil Lines</h5>
+                    <h3 class="card-text">Sponsor</h3>
                 </div>
             </div>
         </div>
@@ -146,30 +155,22 @@
             <div class="card text-center">
                 <img src="assets/transparent-background/WhatsApp_Image_2021-11-18_at_00.07.44__2_-removebg-preview.png" style="width: 20rem;" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Gaurav Pandey</h5>
-                    <p class="card-text">Database Manager and Coordinator
-                        <br>
-                    </p>
-                    <p>
-                        8004167681
-                    </p>
+                    <h5 class="card-title">Technophile</h5>
+                    <h3 class="card-text">Media partner</h3>
                 </div>
             </div>
             <div class="card text-center">
                 <img src="assets/transparent-background/code-panda.png" style="width: 20rem;" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Aakash</h5>
-                    <p class="card-text">Coordinator</p>
-                    <p>
-                        8840132404
-                    </p>
+                    <h5 class="card-title">Code Panda</h5>
+                    <h3 class="card-text">Media partner</h3>
                 </div>
             </div>
             <div class="card text-center">
                 <img src="assets/transparent-background/drink_andco-removebg-preview.png" style="width: 15rem;" class="card-img-top mx-auto" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Yogita Kumari</h5>
-                    <p class="card-text">Coordinator</p>
+                    <h5 class="card-title">Drink & Co.</h5>
+                    <h3 class="card-text">Media partner</h3>
                 </div>
             </div>
         </div>
